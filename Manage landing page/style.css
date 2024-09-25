@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.header{
+    width: 100%;
+    position:absolute; 
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    position: relative;
+   width: 100%;
+}
+.nav a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.Button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(252, 114, 1);
+
+}
+.NavMainSection{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+.hero {
+    width: 50%;
+    text-align: right; 
+}
+.content {
+    width: 50%; 
+
+}
+.content h1{
+    font-size: 3.5rem;
+}
+.content p{
+    margin-top: 20px;
+}
+.content button{
+    margin-top: 20px;
+}
+
+.bg-tablet{
+    width: 50%; 
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: -100px;
+    left: 700px;
+    z-index: -1;
+  
+}
+
+
+
+/* <!-- .....different about Start....... --> */
+
+
+.different {
+    display: flex;
+    justify-content:space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.LeftHeader {
+    font-size: 2.5rem;
+    max-width: 400px; 
+    margin-top: -200px;
+}
+
+.LeftPara {
+   
+    margin-top: 10px;
+    max-width: 300px; 
+    color: #c0c0c0;
+}
+
+
+.diff_Sction button {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(252, 114, 1);
+    margin-right: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+margin-left: -200px;
+
+
+}
+
+.diff_Sction h1 {
+    font-size: 1.5rem;
+   margin-top: -30px;
+   margin-left: -100px;
+}
+
+.diff_Sction p {
+    margin-top: 10px;
+    max-width: 360px;
+    margin-bottom: 20px;
+    color: #c0c0c0;
+}
+.HeaderText{
+
+margin-left: -100px;
+}
+
+/* <!-- .....different about End....... --> */
+
+/* <!-- What they’ve said Start..... --> */
+
+.SaidHeader{
+text-align: center;
+font-size: 2rem;
+}
+.MainSectionImage{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.PicHeader{
+margin-top: 20px;
+}
+
+.PicPara{
+    margin-top: 30px;
+    max-width: 350px;
+    text-align: center;
+    align-items: center;
+    color: #1d1b1b;
+}
+.ImgBox{
+width: 360px;
+height: 200px;
+background-color: #c0c0c0;
+border-radius: 10px;
+}
+.ImgBox1{
+    width: 360px;
+    height: 200px;
+    background-color: #c0c0c0;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+    .ImgBox2{
+        width: 360px;
+        height: 200px;
+        background-color: #c0c0c0;
+        border-radius: 10px;
+        }
+
+        .Img1{
+            width: 100px;
+            height: 100px;
+            margin-top: -50px;
+        }
+        .Buttonn{
+            width: 120px;
+            height: 40px;
+            border: none;
+            border-radius: 20px;
+            background-color: #e07b28;
+           margin-left:600px ;
+           margin-top: 50px;
+           margin-bottom: 50px;
+        }
+        /* <!-- What they’ve said End..... --> */
+        /* <!-- Simplify how your team works today Start -->
+        
+        */
+.Simplify {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 40vh;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(255, 102, 32);
+  
+}
+
+.Simplify h1{
+    margin-top: 70px;
+    font-size: 2.5rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.Simplify button{
+    margin-top: 100px;
+    color: rgb(255, 3, 3);
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.footer{
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+height: 30vh;
+
+background-color:#242D52;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    padding: 15px ;
+
+}
+.FooterBtn {
+      margin-top: 30px;
+      width: 170px;
+      height: 30px;
+      border-radius:20px;
+     border: none;
+     background-color: aliceblue;
+}
+.FooterBtn1 {
+    margin-top: 30px;
+    width: 50px;
+    height: 30px;
+    border-radius:20px;
+   border: none;
+   background-color: rgb(228, 85, 2);
+}
+.copy{
+    margin-top: 70px;
+}
+.social-icons i {
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+    margin-top: 90px;
+  }
